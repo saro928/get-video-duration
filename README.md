@@ -9,6 +9,8 @@ Get the duration in seconds of a video file in the browser.
 
 ## Examples
 
+Copy the JS or TS source file to your project and then import it and use it like the following examples.
+
 ### Basic example usage
 
 ```js
