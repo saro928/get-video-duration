@@ -1,6 +1,13 @@
-# js-ts-get-video-duration-frontend
+# get-video-duration
 
 Get the duration in seconds of a video file in the browser.
+
+## Available languages
+
+Choose the source file from one of the following languages according to your case:
+
+- JavaScript
+- TypeScript
 
 ## Parameters
 
@@ -14,7 +21,7 @@ Copy the JS or TS source file to your project and then import it and use it like
 ### Basic example usage
 
 ```js
-import { getVideoDuration } from 'your-import-route';
+import { getVideoDuration } from 'your-import-route'; // Route to the copied source file
 
 // The HTML input element for selecting video file
 const input = document.getElementById('input');
@@ -32,7 +39,7 @@ input.onchange = async (event) => {
 ### Setting maximum amount of miliseconds to wait
 
 ```js
-import { getVideoDuration } from 'your-import-route';
+import { getVideoDuration } from 'your-import-route'; // Route to the copied source file
 
 // The HTML input element for selecting video file
 const input = document.getElementById('input');
